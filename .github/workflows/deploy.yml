@@ -1,0 +1,46 @@
+# Publica el deck en GitHub Pages en cada empujón a `main`.
+#
+# Solo se publica `deck/`: es estático (sin build) y ocupa la raíz del
+# subdominio `idm-charla1.saavedracbr.com`. El dominio propio se declaró una
+# vez en Settings → Pages; el resto de la carpeta vive solo en el repositorio.
+name: Desplegar en GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Un despliegue a la vez; si llegan dos empujones seguidos, gana el último.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  construir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      # Pages ya está activado en modo «GitHub Actions» (se hizo una vez con
+      # `gh api -X POST repos/saavedracbr/idm-charla1/pages -f build_type=workflow`).
+      - name: Preparar GitHub Pages
+        uses: actions/configure-pages@v6
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: deck
+
+  desplegar:
+    needs: construir
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - id: despliegue
+        uses: actions/deploy-pages@v5

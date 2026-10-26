@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Ficha de práctica · Charla 1</title>
+<link rel="stylesheet" href="../plantillas/documento.css">
+<style>
+  /* La ficha debe caber en una hoja A4 por ambas caras. */
+  @page { margin: 10mm 13mm 12mm; }
+  body { font-size: 8.9pt; line-height: 1.38; }
+  h1 { font-size: 17pt; }
+  h2 { font-size: 10.8pt; margin: 8pt 0 3pt; }
+  h3 { margin: 6pt 0 2pt; }
+  .subtitulo { margin: 2pt 0 5pt; }
+  .cabecera { margin-bottom: 7pt; }
+  .caja { padding: 5pt 7pt; margin: 4pt 0; }
+  pre.prompt { font-size: 7.3pt; line-height: 1.38; padding: 4.5pt 7pt; margin: 3pt 0 4pt; }
+  table { font-size: 8.2pt; margin: 3pt 0 4pt; }
+  th, td { padding: 2.4pt 4pt; }
+  ol, ul { margin-bottom: 3pt; }
+  li { margin-bottom: 1pt; }
+  .linea-escribir { height: 13pt; }
+  .columnas { gap: 8pt; }
+  .columnas pre.prompt { margin-top: 0; }
+</style>
+</head>
+<body>
+
+<div class="hoja">
+  <div class="cabecera"><span>Círculo IDM · Universidad de Lima · Charla 1</span><span>Ficha de práctica</span></div>
+  <h1>Investigar mercados con Gemini</h1>
+  <p class="subtitulo">Caso Tikay: vende más, pero cada vez menos clientes vuelven. ¿Por qué?</p>
+
+  <div class="caja acento">
+    <strong>Antes de empezar.</strong> Inicia sesión con tu cuenta <strong>@aloe.ulima.edu.pe</strong> en
+    <code>gemini.google.com</code> y en <code>notebooklm.google.com</code> (Gemini Notebook). En Gemini, elige el modelo
+    <strong>3.1 Pro</strong>. Todos los prompts de esta ficha están listos para copiar en
+    <code>prompts_charla1.txt</code>, en la carpeta de la charla.
+  </div>
+
+  <p><strong>Tikay</strong> (marca ficticia) vende cuidado personal natural con insumos peruanos por su web, Instagram y TikTok, a Lima y provincias.
+  Sus ventas trimestrales se multiplicaron por 3.7 entre inicios de 2025 y mediados de 2026, pero la <strong>recompra a 90 días</strong> cayó de
+  <strong>26.5 %</strong> a <strong>11.8 %</strong>. Hoy investigamos por qué, en dos pasos: qué se sabe del mercado y qué dicen sus clientes.</p>
+
+  <h2>La fórmula CREAR <span class="min">min 5–15</span></h2>
+  <table>
+    <tr><th style="width:20pt"></th><th style="width:66pt">Parte</th><th style="width:150pt">Pregunta que responde</th><th>Ejemplo</th></tr>
+    <tr><td><span class="letra">C</span></td><td><strong>Contexto</strong></td><td>¿Qué situación? ¿Qué sabes ya?</td><td>“Las ventas crecen, pero la recompra cayó de 26.5 % a 11.8 %.”</td></tr>
+    <tr><td><span class="letra">R</span></td><td><strong>Rol</strong></td><td>¿Desde qué experiencia debe responder?</td><td>“Actúa como analista senior de investigación de mercados.”</td></tr>
+    <tr><td><span class="letra">E</span></td><td><strong>Entregable</strong></td><td>¿Qué formato exacto quieres?</td><td>“Una tabla con 5 factores y cómo medir cada uno.”</td></tr>
+    <tr><td><span class="letra">A</span></td><td><strong>Acción</strong></td><td>¿Qué debe hacer con eso?</td><td>“Prioriza del más al menos probable.”</td></tr>
+    <tr><td><span class="letra">R</span></td><td><strong>Restricciones</strong></td><td>¿Qué límites debe respetar?</td><td>“Máximo 250 palabras. No inventes cifras.”</td></tr>
+  </table>
+
+  <h3>Demo: el mismo pedido, dos prompts</h3>
+  <pre class="prompt vago" data-titulo="Demo · Prompt vago">Dame información sobre el mercado de cosmética natural en Perú.</pre>
+<pre class="prompt" data-titulo="Demo · Prompt CREAR">Contexto: Trabajo en Tikay, una marca peruana de e-commerce de cuidado personal natural. Nuestras ventas crecieron más de 3 veces desde inicios de 2025, pero la recompra a 90 días cayó de 26.5 % a 11.8 %.
+Rol: Actúa como analista senior de investigación de mercados de consumo masivo en Perú.
+Entregable: Una tabla con 5 factores que podrían explicar la caída de la recompra (columnas: factor, por qué podría pasar, cómo lo mediría) y 3 preguntas para entrevistar a clientes.
+Acción: Prioriza los factores del más al menos probable para un e-commerce peruano.
+Restricciones: Máximo 250 palabras. No inventes cifras; si te falta un dato, dime cuál.</pre>
+
+  <h3>Tu turno (2 min)</h3>
+  <div class="columnas">
+    <div>
+      <p>Mejora este prompt con CREAR, pruébalo en Gemini y compáralo con el de tu pareja: ¿qué parte le faltaba más?</p>
+      <pre class="prompt vago" data-titulo="Tu turno · Prompt para mejorar">¿Por qué los clientes no vuelven a comprar?</pre>
+    </div>
+<pre class="prompt" data-titulo="Tu turno · Plantilla CREAR para completar">Contexto:
+Rol:
+Entregable:
+Acción:
+Restricciones:</pre>
+  </div>
+
+  <h2>Práctica 1 · Deep Research <span class="min">min 15–20</span></h2>
+  <ol>
+    <li>En Gemini, abre <strong>Más herramientas</strong> y elige <strong>Deep Research</strong>.</li>
+    <li>Pega el prompt de abajo y envíalo. Gemini te mostrará un <strong>plan de investigación</strong>: revísalo y pulsa <strong>Iniciar investigación</strong>.</li>
+    <li>Déjalo trabajando (tarda unos 5 minutos). Volvemos a él en el minuto 40.</li>
+  </ol>
+<pre class="prompt" data-titulo="Práctica 1 · Deep Research">Contexto: Tikay es una marca peruana de cuidado personal natural (camu camu, maca, sacha inchi, quinua y muña) que vende por su web, Instagram y TikTok a Lima y provincias. Sus ventas crecen, pero cada vez menos clientes vuelven a comprar.
+Rol: Actúa como analista senior de investigación de mercados, especializado en consumo masivo y e-commerce en Perú.
+Entregable: Un informe ejecutivo de máximo 2 páginas con: 1) tamaño y tendencias del mercado de cuidado personal natural en Perú; 2) perfil del comprador online peruano de esta categoría; 3) razones de recompra y de abandono en e-commerce de belleza y cuidado personal; 4) una tabla de fuentes (título, organización, año y enlace).
+Acción: Investiga fuentes secundarias y destaca los hallazgos que ayuden a explicar por qué una marca como Tikay pierde clientes después de la primera compra.
+Restricciones: Usa fuentes de 2024 a 2026, de Perú o Latinoamérica. Marca como [estimado] toda cifra sin fuente. No inventes datos ni enlaces. Responde en español.</pre>
+</div>
+
+<div class="hoja salto">
+  <div class="cabecera"><span>Círculo IDM · Charla 1</span><span>Ficha de práctica · página 2</span></div>
+
+  <h2>Práctica 2 · Gemini Notebook <span class="min">min 20–40</span></h2>
+  <ol>
+    <li>En <code>notebooklm.google.com</code>, crea un <strong>notebook nuevo</strong>.</li>
+    <li>Agrega como fuentes los <strong>6 PDF</strong> de la subcarpeta <em>Entrevistas</em> (desde Drive o descargándolos primero).</li>
+    <li>Haz las preguntas P1 a P4. En cada respuesta, <strong>haz clic en las citas numeradas</strong>: ¿el texto existe en la entrevista? ¿dice eso?</li>
+    <li>Si terminas antes, haz el reto extra.</li>
+  </ol>
+<pre class="prompt" data-titulo="Práctica 2 · P1 Temas">P1. Identifica los 5 temas más recurrentes en estas 6 entrevistas. Para cada tema, da una cita textual e indica de qué entrevista viene.</pre>
+<pre class="prompt" data-titulo="Práctica 2 · P2 Lima vs. provincias">P2. Compara la experiencia de los clientes de Lima con la de los clientes de provincias. Responde en una tabla con las columnas: aspecto, Lima, provincias y cita de respaldo.</pre>
+<pre class="prompt" data-titulo="Práctica 2 · P3 Canales">P3. ¿En qué se diferencian los clientes que llegaron por TikTok de los que llegaron por recomendación o por email? Compara su motivo de compra, su sensibilidad al precio y qué tan probable es que vuelvan.</pre>
+<pre class="prompt" data-titulo="Práctica 2 · P4 Entregas en el tiempo">P4. Ordena por fecha de pedido todos los comentarios sobre tiempos de entrega. ¿Notas algún cambio a lo largo del tiempo? ¿Desde cuándo?</pre>
+<pre class="prompt" data-titulo="Práctica 2 · Reto extra">Reto extra. Propón 5 hipótesis que podamos comprobar con los datos de pedidos de Tikay (columnas: fecha del pedido, canal de adquisición, departamento, cupón, método de pago, estado del pedido, días de entrega y calificación). Para cada hipótesis, indica qué columnas usarías y qué resultado la confirmaría.</pre>
+
+  <h2>Verifica el informe de Deep Research <span class="min">min 40–48</span></h2>
+  <p>Elige <strong>2 afirmaciones con una cifra</strong> y abre su fuente. La IA puede citar mal: tu trabajo es comprobar.</p>
+  <table>
+    <tr><th>Afirmación</th><th style="width:74pt">¿La fuente existe?</th><th style="width:62pt">¿Dice eso?</th><th style="width:62pt">¿2024–2026?</th><th style="width:70pt">Veredicto</th></tr>
+    <tr><td>1.</td><td>Sí · No</td><td>Sí · No</td><td>Sí · No</td><td>✓ · ≈ · ✗</td></tr>
+    <tr><td>2.</td><td>Sí · No</td><td>Sí · No</td><td>Sí · No</td><td>✓ · ≈ · ✗</td></tr>
+  </table>
+  <p class="nota">✓ se sostiene · ≈ se sostiene en parte o la fuente es débil · ✗ no se sostiene</p>
+
+  <h2>Síntesis en pareja <span class="min">min 48–55</span></h2>
+  <div class="columnas">
+    <div class="caja">
+      <h3 style="margin-top:0">1 insight</h3>
+      <p><strong>Observamos que</strong> … (lo que dicen o hacen los clientes)<br>
+      <strong>porque</strong> … (la razón detrás)<br>
+      <strong>lo que significa que</strong> … (la implicancia para Tikay)</p>
+      <div class="linea-escribir"></div><div class="linea-escribir"></div>
+    </div>
+    <div class="caja">
+      <h3 style="margin-top:0">1 hipótesis comprobable</h3>
+      <p><strong>Si</strong> … (lo que creemos que pasa)<br>
+      <strong>entonces en los datos veremos que</strong> … (qué columna, qué comparación)</p>
+      <div class="linea-escribir"></div><div class="linea-escribir"></div>
+    </div>
+  </div>
+  <p class="nota">Ejemplo de hipótesis (sobre otro tema): <em>Si la contraentrega atrae compras poco comprometidas, entonces en los datos veremos más cancelaciones en los pedidos pagados contraentrega.</em>
+  Anoten su insight e hipótesis en la encuesta de salida: en una próxima sesión se pueden validar con los 5,000 pedidos de Tikay.</p>
+
+  <h2>Para seguir aprendiendo</h2>
+  <div class="columnas">
+    <div>
+      <p>En Gemini, abre <strong>Más herramientas → Aprendizaje guiado</strong> y prueba:</p>
+<pre class="prompt" data-titulo="Para seguir aprendiendo · Aprendizaje guiado">Enséñame a diseñar una guía de entrevistas en profundidad para una investigación de mercados. Hazme preguntas para comprobar que entendí antes de avanzar.</pre>
+    </div>
+    <div>
+      <p><strong>Tres buenas prácticas</strong></p>
+      <ul>
+        <li>Usa tu cuenta @aloe para trabajos de clase: tus chats y archivos no se usan para entrenar modelos.</li>
+        <li>No subas datos personales de clientes reales sin permiso.</li>
+        <li>Toda cifra que vayas a presentar, verifícala en su fuente.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

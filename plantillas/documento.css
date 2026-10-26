@@ -1,0 +1,124 @@
+/* Plantilla común para los documentos impresos del kit (A4). */
+
+@font-face {
+  font-family: "Jakarta";
+  src: url("../deck/fuentes/plus-jakarta-sans.woff2") format("woff2");
+  font-weight: 200 800;
+  font-display: block;
+}
+@font-face {
+  font-family: "Mono";
+  src: url("../deck/fuentes/jetbrains-mono.woff2") format("woff2");
+  font-weight: 100 800;
+  font-display: block;
+}
+
+:root {
+  --tinta: #15171f;
+  --texto: #2b2f3a;
+  --suave: #5b6070;
+  --linea: #d9d5cb;
+  --papel: #ffffff;
+  --fondo: #f5f3ee;
+  --acento: #2f4bff;
+  --acento-suave: #e8ebff;
+  --alerta: #d6452b;
+  --verde: #1f7a55;
+}
+
+@page {
+  size: A4;
+  margin: 14mm 15mm 16mm;
+  @bottom-left {
+    content: "Círculo IDM · Charla 1 · Caso Tikay (ficticio)";
+    font: 7.5pt "Jakarta", sans-serif;
+    color: #8a8f9c;
+  }
+  @bottom-right {
+    content: counter(page) " / " counter(pages);
+    font: 7.5pt "Jakarta", sans-serif;
+    color: #8a8f9c;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+body {
+  margin: 0;
+  background: var(--papel);
+  color: var(--texto);
+  font: 9.6pt/1.45 "Jakarta", "Segoe UI", sans-serif;
+}
+
+@media screen {
+  body { background: var(--fondo); padding: 24px 0; }
+  .hoja { width: 210mm; margin: 0 auto 24px; padding: 14mm 15mm 16mm; background: var(--papel); box-shadow: 0 1px 4px rgb(0 0 0 / .12); }
+}
+
+h1, h2, h3 { color: var(--tinta); margin: 0; line-height: 1.2; }
+h1 { font-size: 19pt; font-weight: 800; letter-spacing: -.01em; }
+h2 { font-size: 11.5pt; font-weight: 750; margin: 12pt 0 4pt; display: flex; align-items: baseline; gap: 6pt; }
+h3 { font-size: 9.8pt; font-weight: 700; margin: 8pt 0 3pt; }
+p { margin: 0 0 5pt; }
+ul, ol { margin: 0 0 5pt; padding-left: 14pt; }
+li { margin-bottom: 2pt; }
+strong { color: var(--tinta); font-weight: 700; }
+a { color: var(--acento); text-decoration: none; }
+code, .mono { font-family: "Mono", Consolas, monospace; font-size: .92em; }
+
+/* Encabezado común */
+.cabecera {
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: 7.8pt; font-weight: 600; letter-spacing: .06em; text-transform: uppercase;
+  color: var(--suave); border-bottom: 1.2pt solid var(--tinta); padding-bottom: 4pt; margin-bottom: 9pt;
+}
+.cabecera .ficticio { color: var(--alerta); }
+.subtitulo { font-size: 10.5pt; color: var(--suave); margin: 3pt 0 8pt; }
+
+.min {
+  font-size: 7.6pt; font-weight: 600; color: var(--acento); background: var(--acento-suave);
+  border-radius: 99pt; padding: 1pt 6pt; letter-spacing: .02em; white-space: nowrap;
+}
+
+.caja {
+  border: 1pt solid var(--linea); border-radius: 6pt; padding: 6pt 8pt; margin: 6pt 0;
+  background: #fbfaf7; break-inside: avoid;
+}
+.caja.acento { border-color: #c5ccff; background: var(--acento-suave); }
+
+/* Prompts para copiar */
+pre.prompt {
+  font-family: "Mono", Consolas, monospace; font-size: 8pt; line-height: 1.45;
+  white-space: pre-wrap; margin: 4pt 0 6pt; padding: 6pt 8pt;
+  background: #f3f4f8; border-left: 2.5pt solid var(--acento); border-radius: 0 4pt 4pt 0;
+  color: var(--tinta); break-inside: avoid;
+}
+pre.prompt.vago { border-left-color: #a3a8b5; color: var(--suave); }
+
+table { width: 100%; border-collapse: collapse; margin: 4pt 0 6pt; font-size: 8.8pt; break-inside: avoid; }
+th, td { text-align: left; vertical-align: top; padding: 3.5pt 5pt; border-bottom: .7pt solid var(--linea); }
+th { font-size: 7.8pt; text-transform: uppercase; letter-spacing: .05em; color: var(--suave); font-weight: 650; border-bottom-color: var(--tinta); }
+
+.letra {
+  display: inline-grid; place-items: center; width: 15pt; height: 15pt; border-radius: 4pt;
+  background: var(--tinta); color: #fff; font-weight: 800; font-size: 9pt;
+}
+
+.columnas { display: grid; grid-template-columns: 1fr 1fr; gap: 10pt; }
+.linea-escribir { border-bottom: .7pt solid #b9b5ab; height: 15pt; }
+.salto { break-before: page; }
+.nota { font-size: 8pt; color: var(--suave); }
+
+/* Entrevistas */
+.ficha-participante {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 5pt 10pt;
+  border: 1pt solid var(--linea); border-radius: 6pt; padding: 7pt 9pt; margin: 8pt 0 10pt; background: #fbfaf7;
+}
+.ficha-participante div { font-size: 8.8pt; color: var(--tinta); }
+.ficha-participante span { display: block; font-size: 7pt; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; color: var(--suave); }
+.transcripcion p { margin: 0 0 5.5pt; }
+.transcripcion .hablante { font-weight: 700; color: var(--tinta); }
+.transcripcion .moderadora { color: var(--suave); }
+.transcripcion .moderadora .hablante { color: var(--suave); }

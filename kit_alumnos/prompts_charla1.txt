@@ -1,0 +1,47 @@
+﻿PROMPTS DE LA CHARLA 1 · Círculo IDM · Caso Tikay (ficticio)
+Copia cada bloque completo, desde la línea siguiente al título.
+
+=== Demo · Prompt vago ===
+Dame información sobre el mercado de cosmética natural en Perú.
+
+=== Demo · Prompt CREAR ===
+Contexto: Trabajo en Tikay, una marca peruana de e-commerce de cuidado personal natural. Nuestras ventas crecieron más de 3 veces desde inicios de 2025, pero la recompra a 90 días cayó de 26.5 % a 11.8 %.
+Rol: Actúa como analista senior de investigación de mercados de consumo masivo en Perú.
+Entregable: Una tabla con 5 factores que podrían explicar la caída de la recompra (columnas: factor, por qué podría pasar, cómo lo mediría) y 3 preguntas para entrevistar a clientes.
+Acción: Prioriza los factores del más al menos probable para un e-commerce peruano.
+Restricciones: Máximo 250 palabras. No inventes cifras; si te falta un dato, dime cuál.
+
+=== Tu turno · Prompt para mejorar ===
+¿Por qué los clientes no vuelven a comprar?
+
+=== Tu turno · Plantilla CREAR para completar ===
+Contexto:
+Rol:
+Entregable:
+Acción:
+Restricciones:
+
+=== Práctica 1 · Deep Research ===
+Contexto: Tikay es una marca peruana de cuidado personal natural (camu camu, maca, sacha inchi, quinua y muña) que vende por su web, Instagram y TikTok a Lima y provincias. Sus ventas crecen, pero cada vez menos clientes vuelven a comprar.
+Rol: Actúa como analista senior de investigación de mercados, especializado en consumo masivo y e-commerce en Perú.
+Entregable: Un informe ejecutivo de máximo 2 páginas con: 1) tamaño y tendencias del mercado de cuidado personal natural en Perú; 2) perfil del comprador online peruano de esta categoría; 3) razones de recompra y de abandono en e-commerce de belleza y cuidado personal; 4) una tabla de fuentes (título, organización, año y enlace).
+Acción: Investiga fuentes secundarias y destaca los hallazgos que ayuden a explicar por qué una marca como Tikay pierde clientes después de la primera compra.
+Restricciones: Usa fuentes de 2024 a 2026, de Perú o Latinoamérica. Marca como [estimado] toda cifra sin fuente. No inventes datos ni enlaces. Responde en español.
+
+=== Práctica 2 · P1 Temas ===
+P1. Identifica los 5 temas más recurrentes en estas 6 entrevistas. Para cada tema, da una cita textual e indica de qué entrevista viene.
+
+=== Práctica 2 · P2 Lima vs. provincias ===
+P2. Compara la experiencia de los clientes de Lima con la de los clientes de provincias. Responde en una tabla con las columnas: aspecto, Lima, provincias y cita de respaldo.
+
+=== Práctica 2 · P3 Canales ===
+P3. ¿En qué se diferencian los clientes que llegaron por TikTok de los que llegaron por recomendación o por email? Compara su motivo de compra, su sensibilidad al precio y qué tan probable es que vuelvan.
+
+=== Práctica 2 · P4 Entregas en el tiempo ===
+P4. Ordena por fecha de pedido todos los comentarios sobre tiempos de entrega. ¿Notas algún cambio a lo largo del tiempo? ¿Desde cuándo?
+
+=== Práctica 2 · Reto extra ===
+Reto extra. Propón 5 hipótesis que podamos comprobar con los datos de pedidos de Tikay (columnas: fecha del pedido, canal de adquisición, departamento, cupón, método de pago, estado del pedido, días de entrega y calificación). Para cada hipótesis, indica qué columnas usarías y qué resultado la confirmaría.
+
+=== Para seguir aprendiendo · Aprendizaje guiado ===
+Enséñame a diseñar una guía de entrevistas en profundidad para una investigación de mercados. Hazme preguntas para comprobar que entendí antes de avanzar.

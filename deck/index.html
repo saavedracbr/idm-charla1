@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Investigar mercados con Gemini · Charla 1</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="flor-tikay" viewBox="0 0 120 120">
+    <g transform="translate(60 60)" fill="#d46a43">
+      <ellipse rx="14" ry="27" cy="-27"/>
+      <ellipse rx="14" ry="27" cy="-27" transform="rotate(72)"/>
+      <ellipse rx="14" ry="27" cy="-27" transform="rotate(144)"/>
+      <ellipse rx="14" ry="27" cy="-27" transform="rotate(216)"/>
+      <ellipse rx="14" ry="27" cy="-27" transform="rotate(288)"/>
+      <circle r="14" fill="#2e6a4f"/>
+    </g>
+  </symbol>
+</svg>
+
+<main id="escenario">
+
+  <!-- 1 · Portada -->
+  <section class="slide portada" data-titulo="Portada" data-minuto="0" data-sin-pie data-animacion="portada">
+    <div class="fondo-orbes" aria-hidden="true"><div class="orbe uno"></div><div class="orbe dos"></div><div class="orbe tres"></div></div>
+    <p class="kicker" data-animar>Círculo de Inteligencia de Datos en Marketing · Universidad de Lima</p>
+    <h1 class="titulo" data-animar>Investigar mercados con Gemini</h1>
+    <p class="bajada" data-animar>De la pregunta al insight en 60 minutos</p>
+    <p class="autor" data-animar><strong>Bruno Saavedra</strong><br>Viernes 30 de octubre de 2026</p>
+    <div class="caso" data-animar><svg><use href="#flor-tikay"/></svg>Caso de hoy: Tikay (marca ficticia)</div>
+    <aside class="notas"><ul>
+      <li>Mientras te presentas, pide que abran <strong>gemini.google.com</strong> y <strong>notebooklm.google.com</strong> con su cuenta @aloe.</li>
+      <li>Frase de entrada: “Hoy van a investigar una marca como lo haría un analista, pero con IA, y van a salir con un insight propio.”</li>
+      <li>Tiempo: 30 segundos.</li>
+    </ul></aside>
+  </section>
+
+  <!-- 2 · Quién soy -->
+  <section class="slide" data-titulo="Quién soy" data-minuto="0.5">
+    <p class="kicker" data-animar>Quién soy</p>
+    <h2 class="titulo" data-animar>Bruno Saavedra</h2>
+    <div class="datos-autor">
+      <div class="tarjeta" data-animar><span>Universidad de Lima</span><p>Ingeniería Industrial, 8.º ciclo</p></div>
+      <div class="tarjeta" data-animar><span>Desde 2023</span><p>Project Manager de un ERP en una planta de empaques y material POP</p></div>
+      <div class="tarjeta" data-animar><span>2025–2026</span><p>Ventas B2B con equipos de trade marketing de grandes marcas</p></div>
+      <div class="tarjeta" data-animar><span>Herramientas</span><p>Python, API de Gemini y Google Analytics</p></div>
+    </div>
+    <p class="frase-par" data-animar="barrido">No soy profesor: soy un estudiante que usa IA todos los días para trabajar.</p>
+    <aside class="notas"><ul>
+      <li>Máximo 1 minuto. Habla como par, no como experto.</li>
+      <li>Conecta con marketing: en ventas B2B trabajaste con equipos de trade marketing y sabes lo que es tener que sustentar con datos.</li>
+    </ul></aside>
+  </section>
+
+  <!-- 3 · Así lo uso yo -->
+  <section class="slide usos" data-titulo="Así lo uso yo" data-minuto="1.5">
+    <p class="kicker" data-animar>Así lo uso yo</p>
+    <h2 class="titulo" data-animar>La IA no reemplaza el criterio: <em>lo acelera</em></h2>
+    <div class="fila crece">
+      <div class="tarjeta" data-animar>
+        <span class="etiqueta gris">En el trabajo</span>
+        <h3>Facturas que se leen solas</h3>
+        <p>Conecté la API de Gemini con Apps Script para leer facturas en PDF y extraer sus datos.</p>
+      </div>
+      <div class="tarjeta" data-animar>
+        <span class="etiqueta gris">En la universidad</span>
+        <h3>ULiManager</h3>
+        <p>Una app para estudiantes de la ULima, con un dashboard de matrícula.</p>
+      </div>
+      <div class="tarjeta hoy" data-animar="destacar">
+        <span class="etiqueta">Hoy</span>
+        <h3>Lo mismo, sin programar</h3>
+        <p>Preguntar bien, investigar rápido y verificar antes de creer.</p>
+      </div>
+    </div>
+    <aside class="notas"><ul>
+      <li>Cuenta <strong>una</strong> anécdota concreta (máx. 1 minuto): qué problema tenías, qué hizo Gemini y qué tuviste que corregir tú.</li>
+      <li>Cierra con: “Hoy van a hacer lo mismo, sin escribir una línea de código”.</li>
+    </ul></aside>
+  </section>
+
+  <!-- 4 · Tikay -->
+  <section class="slide tikay" data-titulo="Tikay" data-minuto="2.5" data-animacion="tikay">
+    <span class="ficticio" data-animar>Marca ficticia · datos sintéticos</span>
+    <div class="tikay-marca" data-animar>
+      <svg class="flor" viewBox="0 0 120 120" aria-hidden="true">
+        <g transform="translate(60 60)" fill="#d46a43">
+          <!-- El giro va en un <g>: GSAP escala cada pétalo y al limpiar no borra su rotación. -->
+          <ellipse class="petalo" rx="14" ry="27" cy="-27"/>
+          <g transform="rotate(72)"><ellipse class="petalo" rx="14" ry="27" cy="-27"/></g>
+          <g transform="rotate(144)"><ellipse class="petalo" rx="14" ry="27" cy="-27"/></g>
+          <g transform="rotate(216)"><ellipse class="petalo" rx="14" ry="27" cy="-27"/></g>
+          <g transform="rotate(288)"><ellipse class="petalo" rx="14" ry="27" cy="-27"/></g>
+          <circle class="centro" r="14" fill="#2e6a4f"/>
+        </g>
+      </svg>
+      <span class="nombre">tikay</span>
+    </div>
+    <p class="lema" data-animar>Cuidado personal natural con <strong>insumos peruanos</strong>, vendido por su web, Instagram y TikTok a Lima y provincias.</p>
+    <div class="insumos" data-animar="hijos"><span>Camu camu</span><span>Maca</span><span>Sacha inchi</span><span>Quinua</span><span>Muña</span></div>
+    <div class="tikay-cifras">
+      <div data-animar><b data-contar>4,988</b><span>pedidos</span></div>
+      <div data-animar><b data-contar>3,939</b><span>clientes</span></div>
+      <div data-animar><b data-contar>21 meses</b><span>de enero de 2025 a setiembre de 2026</span></div>
+      <div data-animar><b data-contar>6</b><span>canales de adquisición</span></div>
+    </div>
+    <aside class="notas"><ul>
+      <li>Aclara que es ficticia, pero que el patrón es muy común en e-commerce peruano.</li>
+      <li>Pregunta rápida (mano alzada, 15 s): “¿Quién compró algo por Instagram o TikTok y nunca le volvió a comprar a esa marca?”</li>
+    </ul></aside>
+  </section>
+
+  <!-- 5 · El problema -->
+  <section class="slide problema" data-titulo="El problema" data-minuto="3.5" data-animacion="problema">
+    <p class="kicker" data-animar>El problema</p>
+    <h2 class="titulo" data-animar>Las ventas se multiplicaron por 3.7… <span class="caida" data-paso="1">y la recompra cayó a menos de la mitad</span></h2>
+    <span class="por-que" data-animar="pop" data-paso="2">¿Por qué?</span>
+    <div class="graficos">
+      <div class="tarjeta grafico" data-animar>
+        <div class="cabecera-grafico"><h3>Ventas por trimestre</h3><span class="indicador" data-contar data-desde="1">×3.7</span></div>
+        <p class="unidad">Miles de soles, pedidos entregados</p>
+        <div class="lienzo"><canvas id="grafico-ventas" aria-label="Ventas por trimestre: de 30.9 mil soles en el primer trimestre de 2025 a 115.0 mil en el segundo de 2026 y 89.9 mil en el tercero" role="img"></canvas></div>
+      </div>
+      <div class="tarjeta grafico" data-paso="1">
+        <div class="cabecera-grafico"><h3>Recompra a 90 días</h3><span class="indicador baja" data-contar>−55 %</span></div>
+        <p class="unidad">% de clientes nuevos del trimestre que vuelven a comprar en 90 días</p>
+        <div class="lienzo"><canvas id="grafico-recompra" aria-label="Recompra a 90 días: de 26.5 % en la cohorte del primer trimestre de 2025 a 11.8 % en la del segundo trimestre de 2026" role="img"></canvas></div>
+      </div>
+    </div>
+    <p class="nota-pie" data-paso="1">T3 2026 aún no tiene 90 días de observación para medir su recompra. Fuente: pedidos de Tikay, enero de 2025 a setiembre de 2026 (datos sintéticos).</p>
+    <aside class="notas"><ul>
+      <li>Deja que los gráficos se dibujen. Izquierda: las ventas suben. Derecha: cada nueva generación de clientes vuelve menos.</li>
+      <li><strong>Recompra a 90 días</strong> = de los clientes que compraron por primera vez en un trimestre, qué % volvió a comprar en los 90 días siguientes.</li>
+      <li>Pregunta: “¿Por qué creen que pasa?” Recoge 2 ideas sin juzgarlas. “Hoy vamos a investigarlo.”</li>
+    </ul></aside>
+  </section>
+
+  <!-- 6 · El proceso -->
+  <section class="slide" data-titulo="El proceso de investigación" data-minuto="5" data-animacion="proceso">
+    <p class="kicker" data-animar>Cómo lo vamos a investigar</p>
+    <h2 class="titulo" data-animar>Tres preguntas, en orden</h2>
+    <div class="pasos">
+      <div class="conector"><span class="conector-avance"></span><span class="conector-pendiente"></span></div>
+      <div class="paso" data-animar>
+        <div class="numero">1</div>
+        <h3>Investigación secundaria</h3>
+        <p class="pregunta">¿Qué se sabe ya del mercado?</p>
+        <p class="herramienta">Deep Research</p>
+        <span class="etiqueta">Hoy</span>
+      </div>
+      <div class="paso" data-paso="1">
+        <div class="numero">2</div>
+        <h3>Investigación cualitativa</h3>
+        <p class="pregunta">¿Qué dicen los clientes?</p>
+        <p class="herramienta">Gemini Notebook</p>
+        <span class="etiqueta">Hoy</span>
+      </div>
+      <div class="paso despues" data-paso="2">
+        <div class="numero">3</div>
+        <h3>Validación con datos</h3>
+        <p class="pregunta">¿Lo confirman los 5,000 pedidos?</p>
+        <p class="herramienta">Gemini con datos</p>
+        <span class="etiqueta gris">Próximamente</span>
+      </div>
+    </div>
+    <p class="mensaje-clave" data-animar data-paso="3">La IA acelera cada paso. <span>El criterio sigue siendo tuyo.</span></p>
+    <aside class="notas"><ul>
+      <li>Así trabaja un equipo de investigación: primero lo que ya se sabe, luego lo que dicen los clientes, al final lo que confirman los datos.</li>
+      <li>Hoy: pasos 1 y 2. El paso 3 queda para una próxima sesión (no prometas fecha).</li>
+      <li>Transición: “Pero para que la IA nos sirva, primero hay que saber pedirle las cosas.”</li>
+    </ul></aside>
+  </section>
+
+  <!-- 7 · CREAR -->
+  <section class="slide" data-titulo="La fórmula CREAR" data-minuto="6" data-animacion="crear">
+    <p class="kicker" data-animar>Cómo pedirle las cosas a la IA</p>
+    <h2 class="titulo" data-animar>La fórmula <em>CREAR</em></h2>
+    <div class="letras">
+      <div class="letra c"><b>C</b><h3>Contexto</h3><p>¿Qué situación? ¿Qué sabes ya?</p></div>
+      <div class="letra r1"><b>R</b><h3>Rol</h3><p>¿Desde qué experiencia debe responder?</p></div>
+      <div class="letra e clave"><span class="marca" data-animar="pop" data-paso="2">La que más falta</span><b>E</b><h3>Entregable</h3><p>¿Qué formato exacto quieres? Tabla, lista, informe.</p></div>
+      <div class="letra a"><b>A</b><h3>Acción</h3><p>¿Qué debe hacer? Analizar, comparar, priorizar.</p></div>
+      <div class="letra r2 clave"><span class="marca" data-animar="pop" data-paso="2">La más importante</span><b>R</b><h3>Restricciones</h3><p>Extensión, fuentes, “no inventes cifras”.</p></div>
+    </div>
+    <p class="nota-pie" data-paso="1">Equivale a la estructura que recomienda Google para sus prompts: persona, tarea, contexto y formato.</p>
+    <aside class="notas"><ul>
+      <li>Cada letra responde una pregunta. Idea fuerza: “Es lo mismo que le explicarías a un practicante nuevo el primer día”.</li>
+      <li>La que más falta en la práctica: <strong>Entregable</strong>. Sin formato, la IA decide por ti.</li>
+      <li>La más importante para investigar: <strong>Restricciones</strong> (“no inventes cifras”).</li>
+    </ul></aside>
+  </section>
+
+  <!-- 8 · Demo -->
+  <section class="slide" data-titulo="Demo: vago vs. CREAR" data-minuto="8" data-animacion="demo">
+    <p class="kicker" data-animar>Demo en vivo · Gemini 3.1 Pro</p>
+    <h2 class="titulo" data-animar>El mismo pedido, dos prompts</h2>
+    <div class="demo">
+      <div class="tarjeta" data-animar>
+        <span class="etiqueta gris">Prompt vago</span>
+        <p class="prompt vago" data-animar="escribir">Dame información sobre el mercado de cosmética natural en Perú.</p>
+        <p class="resultado" data-paso="2"><b>Resultado típico:</b> genérico, sin fuentes y difícil de usar en una reunión.</p>
+      </div>
+      <div class="tarjeta mejor" data-animar>
+        <span class="etiqueta">Prompt CREAR</span>
+        <div class="prompt">
+          <span class="parte c" data-animar="parte" data-paso="1"><i>C</i>Trabajo en Tikay, e-commerce peruano de cuidado personal natural. Las ventas crecieron más de 3 veces, pero la recompra a 90 días cayó de 26.5 % a 11.8 %.</span>
+          <span class="parte r1" data-animar="parte" data-paso="1"><i>R</i>Actúa como analista senior de investigación de mercados de consumo masivo en Perú.</span>
+          <span class="parte e" data-animar="parte" data-paso="1"><i>E</i>Una tabla con 5 factores (factor, por qué podría pasar, cómo lo mediría) y 3 preguntas para entrevistar a clientes.</span>
+          <span class="parte a" data-animar="parte" data-paso="1"><i>A</i>Prioriza los factores del más al menos probable.</span>
+          <span class="parte r2" data-animar="parte" data-paso="1"><i>R</i>Máximo 250 palabras. No inventes cifras; si te falta un dato, dime cuál.</span>
+        </div>
+        <p class="resultado" data-paso="2"><b>Resultado:</b> una tabla priorizada que se puede discutir y medir.</p>
+      </div>
+    </div>
+    <aside class="notas"><ul>
+      <li>Ten 2 pestañas de Gemini 3.1 Pro listas. Pega primero el vago y luego el CREAR (están en la ficha y en prompts_charla1.txt).</li>
+      <li>Compara en voz alta: “¿Cuál de las dos respuestas llevarían a una reunión con su jefe?” Señala la tabla y que pidió datos que le faltaban en vez de inventarlos.</li>
+      <li>Si Gemini tarda, muestra la captura de respaldo de plan_b.</li>
+    </ul></aside>
+  </section>
+
+  <!-- 9 · Tu turno -->
+  <section class="slide" data-titulo="Tu turno" data-minuto="12">
+    <p class="kicker" data-animar>Tu turno · 2 minutos</p>
+    <h2 class="titulo" data-animar>Mejora este prompt con CREAR</h2>
+    <div class="practica">
+      <div>
+        <div class="prompt-grande" data-animar="escribir">¿Por qué los clientes no vuelven a comprar?</div>
+        <ul class="lista-pasos">
+          <li data-animar>Reescríbelo en Gemini con las 5 partes de CREAR.</li>
+          <li data-animar>Compáralo con el de tu pareja: ¿qué parte le faltaba más al original?</li>
+        </ul>
+      </div>
+      <div class="columna-lateral">
+        <div class="cronometro" data-segundos="120" data-animar></div>
+      </div>
+    </div>
+    <aside class="notas"><ul>
+      <li>Pulsa <strong>C</strong> para iniciar o pausar el cronómetro; <strong>Shift + C</strong> lo reinicia.</li>
+      <li>Camina por el aula y busca un buen ejemplo. Al terminar, una persona lee el suyo.</li>
+      <li>Respuesta típica a “¿qué le faltaba?”: Contexto y Entregable.</li>
+      <li>Recorte 3: si vas atrasado, salta esta slide.</li>
+    </ul></aside>
+  </section>
+
+  <!-- 10 · Práctica 1 -->
+  <section class="slide" data-titulo="Práctica 1: Deep Research" data-minuto="15">
+    <p class="kicker" data-animar>Práctica 1 · Investigación secundaria</p>
+    <h2 class="titulo" data-animar>Lanza un Deep Research y déjalo trabajando</h2>
+    <div class="practica">
+      <ul class="lista-pasos">
+        <li data-animar>En Gemini, abre <strong>Más herramientas</strong> y elige <strong>Deep Research</strong>.</li>
+        <li data-animar>Pega el prompt <strong>Práctica 1</strong> de <code>prompts_charla1.txt</code>.</li>
+        <li data-animar>Revisa el <strong>plan de investigación</strong> y pulsa <strong>Iniciar investigación</strong>.</li>
+        <li data-animar>Déjalo correr: volvemos a él en el minuto 40.</li>
+      </ul>
+      <div class="columna-lateral">
+        <div class="tarjeta" data-animar>
+          <h3>¿Qué es Deep Research?</h3>
+          <p>Un agente que busca y lee decenas de fuentes, y arma un informe con citas. Tarda unos 5 minutos.</p>
+        </div>
+        <div class="cronometro" data-segundos="300" data-animar></div>
+      </div>
+    </div>
+    <aside class="notas"><ul>
+      <li>Hazlo una vez en tu pantalla, paso a paso. Ellos copian el prompt del .txt de la carpeta.</li>
+      <li>Insiste en <strong>leer el plan</strong> antes de iniciar: ahí se puede corregir el rumbo.</li>
+      <li>Si alguien llega al límite de uso, que trabaje con su pareja. Si nadie puede, usa el informe de respaldo.</li>
+      <li><strong>C</strong> inicia el cronómetro de 5 minutos.</li>
+    </ul></aside>
+  </section>
+
+  <!-- 11 · Práctica 2 -->
+  <section class="slide" data-titulo="Práctica 2: Gemini Notebook" data-minuto="20">
+    <p class="kicker" data-animar>Práctica 2 · Investigación cualitativa</p>
+    <h2 class="titulo" data-animar>Analiza 6 entrevistas con Gemini Notebook</h2>
+    <div class="practica">
+      <div>
+        <ul class="lista-pasos">
+          <li data-animar>En <code>notebooklm.google.com</code>, crea un notebook nuevo.</li>
+          <li data-animar>Agrega los <strong>6 PDF</strong> de la subcarpeta <em>Entrevistas</em>.</li>
+          <li data-animar>Haz las preguntas P1 a P4 y <strong>haz clic en cada cita</strong>: ¿existe? ¿dice eso?</li>
+        </ul>
+        <div class="preguntas-notebook" data-animar="hijos">
+          <div><b>P1</b>Los 5 temas más recurrentes, con citas</div>
+          <div><b>P2</b>Lima vs. provincias, en una tabla</div>
+          <div><b>P3</b>Clientes de TikTok vs. referidos y email</div>
+          <div><b>P4</b>Entregas ordenadas en el tiempo</div>
+        </div>
+      </div>
+      <div class="columna-lateral">
+        <div class="tarjeta" data-animar>
+          <h3>¿Por qué Notebook?</h3>
+          <p>Responde solo con tus fuentes y cita cada afirmación. Ideal para entrevistas, encuestas y papers.</p>
+        </div>
+        <div class="cronometro" data-segundos="1200" data-animar></div>
+      </div>
+    </div>
+    <aside class="notas"><ul>
+      <li>Si alguien no puede subir los PDF, que use tu notebook compartido (plan B) o trabaje con su pareja.</li>
+      <li>Lo importante no es la respuesta: es <strong>hacer clic en las citas</strong>.</li>
+      <li>A los 10 minutos pregunta: “¿Qué temas les salieron?” Anota 3 o 4 en la pizarra.</li>
+      <li>Deberían encontrar: entregas lentas en provincias desde abril, compradores por cupón (TikTok), sin posventa ni premio a los fieles, problemas de pago y Yape, WhatsApp lento, producto muy valorado.</li>
+      <li><strong>C</strong> inicia el cronómetro de 20 minutos.</li>
+    </ul></aside>
+  </section>
+
+  <!-- 12 · Verifica -->
+  <section class="slide" data-titulo="Verifica el informe" data-minuto="40">
+    <p class="kicker" data-animar>Vuelve a tu Deep Research</p>
+    <h2 class="titulo" data-animar>Una cita no es una prueba <em>hasta que la abres</em></h2>
+    <div class="practica">
+      <div>
+        <ul class="chequeo">
+          <li data-animar>Elige <strong>2 afirmaciones con una cifra</strong>.</li>
+          <li data-animar>Abre su fuente. <strong>¿Existe?</strong></li>
+          <li data-animar><strong>¿Dice eso?</strong> ¿Con esa cifra?</li>
+          <li data-animar>¿Es de <strong>2024–2026</strong> y de Perú o Latinoamérica?</li>
+        </ul>
+        <div class="veredictos" data-animar="hijos"><span class="si">✓ se sostiene</span><span class="parcial">≈ en parte</span><span class="no">✗ no se sostiene</span></div>
+      </div>
+      <div class="columna-lateral">
+        <div class="cronometro" data-segundos="480" data-animar></div>
+        <div class="tarjeta" data-animar>
+          <h3>Truco rápido</h3>
+          <p>En la fuente, pulsa <strong>Ctrl + F</strong> y busca la cifra. Si no aparece, la afirmación no se sostiene tal cual.</p>
+        </div>
+      </div>
+    </div>
+    <aside class="notas"><ul>
+      <li>Es normal encontrar fuentes que no dicen exactamente lo que afirma el informe. Ese es el aprendizaje.</li>
+      <li>Al final, mano alzada: “¿Quién encontró al menos una cita débil o incorrecta?”</li>
+      <li>Recorte 2: si vas atrasado, hazlo tú en pantalla con un solo ejemplo.</li>
+      <li><strong>C</strong> inicia el cronómetro de 8 minutos.</li>
+    </ul></aside>
+  </section>
+
+  <!-- 13 · Síntesis -->
+  <section class="slide" data-titulo="Síntesis en pareja" data-minuto="48">
+    <p class="kicker" data-animar>Síntesis en pareja</p>
+    <h2 class="titulo" data-animar>1 insight y 1 hipótesis comprobable</h2>
+    <div class="practica">
+      <div>
+        <div class="plantillas">
+          <div class="tarjeta plantilla" data-animar>
+            <h3>Insight</h3>
+            <p><span class="linea" data-animar><b>Observamos que</b> …</span><span class="linea" data-animar><b>porque</b> …</span><span class="linea" data-animar><b>lo que significa que</b> …</span></p>
+          </div>
+          <div class="tarjeta plantilla" data-animar>
+            <h3>Hipótesis</h3>
+            <p><span class="linea" data-animar><b>Si</b> …</span><span class="linea" data-animar><b>entonces en los datos veremos que</b> …</span></p>
+          </div>
+        </div>
+        <p class="ejemplo" data-animar>Ejemplo (otro tema): <i>Si la contraentrega atrae compras poco comprometidas, entonces en los datos veremos más cancelaciones en los pedidos pagados contraentrega.</i></p>
+      </div>
+      <div class="columna-lateral">
+        <div class="cronometro" data-segundos="420" data-animar></div>
+        <div class="tarjeta" data-animar><p>Anótenlos en la <strong>encuesta de salida</strong>: se pueden validar con los 5,000 pedidos.</p></div>
+      </div>
+    </div>
+    <aside class="notas"><ul>
+      <li>4 minutos para escribir y 3 para que compartan 2 o 3 parejas (recorte 1: solo una).</li>
+      <li>Valora los insights cuyo “porque” sale de una cita, y las hipótesis que se pueden comprobar con columnas de datos.</li>
+      <li><strong>C</strong> inicia el cronómetro de 7 minutos.</li>
+    </ul></aside>
+  </section>
+
+  <!-- 14 · Cierre -->
+  <section class="slide" data-titulo="Cierre" data-minuto="55" data-animacion="cierre">
+    <p class="kicker" data-animar>Para llevar</p>
+    <h2 class="titulo" data-animar>Tres ideas y dos códigos</h2>
+    <div class="cierre">
+      <div>
+        <ul class="ideas">
+          <li data-animar><b>1</b><div>Un buen prompt tiene 5 partes<span>Contexto, Rol, Entregable, Acción y Restricciones.</span></div></li>
+          <li data-animar><b>2</b><div>Cada herramienta para su pregunta<span>Deep Research para el mercado, Gemini Notebook para tus fuentes.</span></div></li>
+          <li data-animar><b>3</b><div>Verifica antes de presentar<span>La IA acelera; el criterio y la firma son tuyos.</span></div></li>
+        </ul>
+        <p class="extra" data-animar>En la carpeta está la <strong>guía opcional de planes</strong> de Gemini para estudiantes: AI Plus gratis por 12 meses o AI Pro con descuento.</p>
+        <p class="siguiente" data-animar><b>Lo que viene:</b> comprobar sus hipótesis con los 5,000 pedidos de Tikay.</p>
+      </div>
+      <div class="qrs">
+        <div class="qr" data-animar><div class="codigo" data-qr="carpeta"></div><h3>Carpeta de la charla</h3><p data-qr-texto="carpeta">Ficha, prompts, entrevistas y guía</p></div>
+        <div class="qr" data-animar><div class="codigo" data-qr="encuestaSalida"></div><h3>Encuesta de salida</h3><p data-qr-texto="encuestaSalida">2 minutos, ahora mismo</p></div>
+      </div>
+    </div>
+    <aside class="notas"><ul>
+      <li>Las 3 ideas en 30 segundos.</li>
+      <li>Dales <strong>2 minutos ahora</strong> para la encuesta: es la evidencia para el docente responsable.</li>
+      <li>La guía de planes es opcional: la decisión es de cada uno.</li>
+      <li>Agradece a la coordinadora y al docente responsable del círculo.</li>
+    </ul></aside>
+  </section>
+
+</main>
+
+<div id="progreso"><span></span></div>
+<div id="negro" hidden></div>
+<div id="ayuda"><kbd>←</kbd> <kbd>→</kbd> navegar · <kbd>F</kbd> pantalla completa · <kbd>P</kbd> presentador · <kbd>C</kbd> cronómetro · <kbd>B</kbd> pantalla negra</div>
+
+<script src="vendor/gsap.min.js"></script>
+<script src="vendor/SplitText.min.js"></script>
+<script src="vendor/Flip.min.js"></script>
+<script src="vendor/chart.umd.min.js"></script>
+<script src="vendor/qrcode.min.js"></script>
+<script src="presentacion.js"></script>
+</body>
+</html>

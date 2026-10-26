@@ -1,0 +1,41 @@
+archivo: E2_Jorge_Arequipa
+titulo: Entrevista 2 · Jorge
+participante: Jorge M. (nombre ficticio)
+edad: 34 años
+ubicacion: Cayma, Arequipa
+ocupacion: Ingeniero de procesos
+cliente_desde: Agosto de 2025
+canal: Google
+pedidos: 2
+fecha: 6 de octubre de 2026
+duracion: 28 minutos
+modalidad: Videollamada
+---
+Moderadora: Buenas tardes, Jorge, gracias por aceptar la entrevista. Queremos entender tu experiencia con Tikay, lo bueno y lo malo. Todo lo que digas es útil.
+Jorge: Buenas tardes. Perfecto, encantado de ayudar.
+Moderadora: ¿Cómo llegaste a Tikay?
+Jorge: Por Google. Estaba buscando un shampoo sin sulfatos porque tengo el cuero cabelludo sensible, y con el sol de Arequipa y el agua de acá el pelo sufre bastante. Puse algo como "shampoo sin sulfatos Perú" y apareció Tikay entre los primeros resultados. Leí la descripción del shampoo de quinua, vi que tenía buenas reseñas y me animé.
+Moderadora: ¿Qué te hizo confiar en una marca que no conocías?
+Jorge: Dos cosas. Las reseñas, que eran bastantes y no parecían falsas, porque había algunas de tres estrellas que explicaban qué no les gustó. Y que la página ponía la lista completa de ingredientes y de dónde venía la quinua, de Puno. Soy ingeniero, me gusta saber qué estoy comprando. Muchas marcas dicen "natural" y no te explican nada más.
+Moderadora: ¿Qué compraste esa primera vez?
+Jorge: El shampoo y el acondicionador de quinua. Usé el cupón de bienvenida del 15 % y pagué con tarjeta de crédito. Lo único que me hizo dudar fue el envío: 15.90 a provincia. Para dos productos sí pesa. El envío gratis es recién desde 180 soles, y eso para provincia es bastante. En Lima creo que es desde 120.
+Moderadora: ¿Y cómo fue la entrega?
+Jorge: Esa primera vez, bien. Llegó en cuatro días, que para Arequipa me parece razonable. Venía bien empacado. Y el producto, la verdad, diez de diez. Mi esposa también lo empezó a usar y le encantó. Se nota que es un producto bien hecho.
+Moderadora: Me dijiste que compraste dos veces. ¿Cómo fue la segunda?
+Jorge: Ahí es donde la cosa cambió. Fue en mayo de este año. Pedí lo mismo, más un aceite de sacha inchi para mi esposa. Esta vez demoró nueve días. Nueve. Y lo peor no fue la demora, sino que el código de seguimiento se quedó congelado como cinco días en "en tránsito". No sabía si el pedido existía o se había perdido.
+Moderadora: ¿Intentaste comunicarte con Tikay?
+Jorge: Sí, les escribí por WhatsApp. Me respondieron al día siguiente con un mensaje que claramente era copiado y pegado: "su pedido se encuentra en camino, agradecemos su paciencia". Cuando insistí, me dijeron que era un tema del courier. Entiendo que el courier es otra empresa, pero para mí, como cliente, el problema es de Tikay. Yo le compré a Tikay, no al courier.
+Moderadora: ¿Cómo calificaste ese pedido?
+Jorge: Le puse tres estrellas. No le puse menos porque el producto es bueno, pero la experiencia fue mala. Y desde entonces, te soy honesto, no he vuelto a comprar. Me compré un shampoo parecido en el supermercado de acá. No es igual, pero lo tengo en el momento y no tengo que estar pendiente del seguimiento.
+Moderadora: ¿Qué tendría que pasar para que vuelvas a comprar en Tikay?
+Jorge: Lo principal es que la entrega sea predecible. Si me dicen "a Arequipa demora seis días" y llega en seis días, no tengo problema, me organizo. Lo que molesta es la incertidumbre. Y si hay un retraso, que me avisen antes de que yo tenga que preguntar. Segundo, que el envío gratis para provincia sea más alcanzable. Tercero, que la atención no sea un robot.
+Moderadora: ¿Cómo comparas el precio de Tikay con el de otras opciones?
+Jorge: El shampoo está en 44.90 y el del supermercado en unos 25. Por el producto, pagaría la diferencia. Lo que no pago es la diferencia, más el envío, más la espera. Cuando sumas todo, para alguien de provincia Tikay sale bastante más caro de lo que parece en la página.
+Moderadora: ¿Sientes que hay diferencia entre ser cliente en Lima y en provincia?
+Jorge: Claramente. En Lima seguro llega rapidito. A provincia nos tratan como de segunda: pagamos más por el envío, esperamos más y encima nadie te explica nada. Y no es solo Tikay, eh, pasa con muchas tiendas online. Pero las marcas que lo hacen bien en provincia se ganan a la gente.
+Moderadora: ¿Recomendarías Tikay a alguien?
+Jorge: El producto, sí, sin dudarlo. La experiencia de compra, hoy por hoy, no. Si un amigo de Lima me pregunta, le digo que compre. Si es de Arequipa, le digo que tenga paciencia.
+Moderadora: ¿Algo más que quieras agregar?
+Jorge: Que no pierdan lo bueno que tienen. El producto es excelente y eso es lo más difícil de lograr. Lo otro, la logística y la atención, se puede arreglar. Ojalá lo arreglen, porque me gustaría volver.
+Moderadora: Muchas gracias, Jorge. Tus comentarios son muy valiosos.
+Jorge: A ti, que te vaya bien.

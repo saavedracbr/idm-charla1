@@ -1,0 +1,39 @@
+archivo: E3_Camila_Lima
+titulo: Entrevista 3 · Camila
+participante: Camila T. (nombre ficticio)
+edad: 21 años
+ubicacion: San Juan de Lurigancho, Lima
+ocupacion: Estudiante universitaria
+cliente_desde: Febrero de 2026
+canal: TikTok
+pedidos: 1
+fecha: 7 de octubre de 2026
+duracion: 24 minutos
+modalidad: Videollamada
+---
+Moderadora: Hola, Camila, gracias por darte un tiempo entre clases. Queremos conocer tu experiencia con Tikay. Puedes ser totalmente sincera.
+Camila: Hola, sí, tranqui. Lo que necesites.
+Moderadora: ¿Cómo conociste Tikay?
+Camila: Por TikTok. Me salió un video de una influencer que hacía un unboxing de un kit, con el exfoliante de café y la crema corporal. Se veía bonito, olía rico según ella, y al final dio un código, TIKTOK20, que era 20 % de descuento. La verdad, compré por el cupón. Veinte por ciento es un montón para mí.
+Moderadora: ¿Qué compraste?
+Camila: El exfoliante de café de Chanchamayo y la crema corporal. Con el descuento me salió como 60 y algo con el envío. Pagué con Yape. Si no hubiera tenido Yape, no compraba, porque no tengo tarjeta de crédito y la de débito no la uso para comprar online, me da miedo. Llegó en tres días, todo bien.
+Moderadora: ¿Cómo fue comprar desde el celular?
+Camila: Fácil, todo lo hago desde el celular. Solo que el código TIKTOK20 lo tuve que copiar a mano del video y la primera vez lo escribí mal. Si fuera un link que ya te aplica el descuento, sería mejor.
+Moderadora: ¿Qué te pareció el producto?
+Camila: Bonito. El exfoliante olía riquísimo, como a café de verdad. La crema estaba bien, pero se me acabó rápido, en como tres semanas. Para el precio normal, sin cupón, me parece un poco caro para mí. O sea, entiendo que es natural y peruano, pero yo soy estudiante y tengo que cuidar la plata.
+Moderadora: ¿Compartiste algo de tu compra en redes?
+Camila: Sí, subí un TikTok abriendo la caja, porque el empaque es bonito, tiene hojitas dibujadas. Tuvo como 800 vistas, que para mí es un montón. Etiqueté a Tikay y no me respondieron ni me compartieron. Otras marcas te repostean y te sientes parte. Ahí sentí que no les importaba mucho.
+Moderadora: ¿Volviste a comprar?
+Camila: No. Y no es porque me haya ido mal, eh. Simplemente ya no tenía cupón. Estoy esperando el próximo Cyber para ver si sale algo. Es que en TikTok cada semana te sale una marca nueva con descuento, entonces una va probando. Ahorita estoy usando una crema de otra marca que también vi en TikTok, que estaba en oferta.
+Moderadora: ¿Tikay te ha contactado después de tu compra?
+Camila: Me llegan correos, creo, pero no los abro. Casi no uso el correo, solo para la universidad. Todo lo veo en TikTok e Instagram. Si me sigo enterando de Tikay es porque a veces me sale publicidad en TikTok, pero es publicidad, no sé, muy de anuncio. No me engancha.
+Moderadora: ¿Qué tipo de contenido sí te engancharía?
+Camila: Contenido real. Chicas como yo usándolo, rutinas de verdad, antes y después. Y que respondan los comentarios. Una vez comenté en un video de ellos preguntando si la crema servía para piel con acné y nunca me respondieron.
+Moderadora: ¿Qué tendría que pasar para que vuelvas a comprar?
+Camila: Uno, que saquen tamaños más chiquitos o packs más baratos, tipo de prueba. Así no gasto tanto de golpe. Dos, que me manden un cupón para volver, pero por donde yo lo vea, por TikTok o Instagram, no por correo. Y tres, que la contraentrega llegue a todos los distritos. A mi zona no llega, y a veces da miedo pagar antes a una marca que no conoces. Mis amigas siempre preguntan si hay contraentrega.
+Moderadora: ¿Recomendarías Tikay a tus amigas?
+Camila: Si hay cupón, sí. Les diría "aprovecha que está con descuento". Sin cupón, les diría que hay otras opciones más baratas.
+Moderadora: Si pudieras decirle algo al equipo de Tikay, ¿qué les dirías?
+Camila: Que hay muchas chicas como yo que les compramos una vez por el descuento y nunca más supieron de nosotras. Si nos hablaran por donde estamos, con contenido real y precios para estudiantes, capaz nos quedamos.
+Moderadora: Muchas gracias, Camila.
+Camila: De nada, chau.

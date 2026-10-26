@@ -1,0 +1,39 @@
+archivo: E4_Rosa_Trujillo
+titulo: Entrevista 4 · Rosa
+participante: Rosa C. (nombre ficticio)
+edad: 47 años
+ubicacion: Trujillo, La Libertad
+ocupacion: Docente de primaria
+cliente_desde: Diciembre de 2025
+canal: Referido
+pedidos: 2
+fecha: 8 de octubre de 2026
+duracion: 33 minutos
+modalidad: Llamada telefónica
+---
+Moderadora: Buenas noches, señora Rosa, muchas gracias por atenderme. Queremos conocer su experiencia como clienta de Tikay. No hay respuestas buenas ni malas.
+Rosa: Buenas noches, hijita. Con mucho gusto, pregúntame nomás.
+Moderadora: ¿Cómo conoció Tikay?
+Rosa: Por mi hija, que vive en Lima. Ella compra hace tiempo y en Navidad me regaló una crema de maca. Me encantó, me dejó la piel suavecita. Entonces le dije "ayúdame a comprar unos regalos para mis colegas del colegio", y me enseñó la página.
+Moderadora: ¿Qué compró esa primera vez?
+Rosa: Dos kits de regalo, los que vienen en cajita. Fue en diciembre del año pasado. Pagué con transferencia, porque no confío mucho en poner la tarjeta en internet. Mi hija me ayudó con eso. Como pasaba de 180 soles, el envío salió gratis. Llegó en cinco días, antes de Navidad. Todo perfecto. Mis colegas quedaron felices, una me preguntó dónde lo había comprado.
+Moderadora: ¿Y la segunda compra?
+Rosa: Ay, esa es la historia triste. Fue en mayo, para el Día de la Madre. Pedí un kit para mi mamá el 2 de mayo, con más de una semana de anticipación, pensando que llegaba de sobra. Y no llegó. El Día de la Madre fue el domingo 10 y el kit llegó recién el miércoles 13. Tuve que darle el regalo tarde, con vergüenza. Mi mamá no dijo nada, pero yo sí me sentí mal.
+Moderadora: Más allá de la demora, ¿qué le pareció el kit cuando llegó?
+Rosa: Precioso, eso sí. La cajita es de cartón con un lazo de tela, se ve artesanal. Lo único que me hubiera gustado es poner una tarjetita con un mensaje para mi mamá, pero en la página no había esa opción. Para un regalo, ese detalle importa.
+Moderadora: ¿Y el precio de los kits?
+Rosa: Están entre 99 y 159 soles. Para un regalo me parece justo, porque compras algo bonito y peruano. Pero, claro, si el regalo llega tarde, ya no vale lo que pagaste.
+Moderadora: ¿Le avisaron que iba a demorar?
+Rosa: Nadie me avisó nada. Yo pensé que como la vez anterior llegó en cinco días, esta vez también. Si me hubieran dicho "señora, a Trujillo ahora demora diez días", yo compraba otra cosa aquí o pedía antes. Lo que más me molestó fue eso, que no me avisaron.
+Moderadora: Entre una compra y otra, ¿Tikay se comunicó con usted?
+Rosa: No, nunca. Ni un mensajito preguntando qué tal llegó, si a mis colegas les gustó, nada. Mire, en la tienda de mi barrio me conocen por mi nombre. La señora me dice "profesora Rosa, llegó la crema que le gusta". Eso es lo que una valora. Con Tikay compré dos veces y es como si fuera la primera.
+Moderadora: ¿Qué le parece la calidad de los productos?
+Rosa: Muy buena. Eso no lo discuto. A mi mamá le encantó la crema y el bálsamo, aunque llegaran tarde. Y me gusta que sean cosas de acá, de nuestra tierra, la maca, el sacha inchi. Eso se lo cuento a todos.
+Moderadora: ¿Volvería a comprar?
+Rosa: Para Navidad, tal vez. Pero esta vez voy a pedir con tres semanas de anticipación, por si acaso. O compro aquí en Trujillo, que ya hay tiendas de productos naturales. Depende de cómo me atiendan.
+Moderadora: ¿Qué le recomendaría a Tikay?
+Rosa: Que digan la verdad sobre cuánto demora el envío a provincia, que no pongan lo mismo para todos. Que haya un número de WhatsApp donde te respondan rápido y te manden el catálogo, porque a mí la página a veces me confunde un poco, mi hija es la que sabe. Y que se acuerden de uno, que manden un saludito. No cuesta nada.
+Moderadora: ¿Le ha recomendado Tikay a otras personas?
+Rosa: Sí, a mis colegas, a mi hermana. Pero después de lo del Día de la Madre ya no tanto. Les digo que el producto es bueno, pero que pidan con tiempo.
+Moderadora: Muchísimas gracias, señora Rosa. Ha sido muy amable.
+Rosa: Gracias a ti, hijita. Que te vaya bonito.

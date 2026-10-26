@@ -1,0 +1,39 @@
+archivo: E5_Martin_Lima
+titulo: Entrevista 5 · Martín
+participante: Martín V. (nombre ficticio)
+edad: 38 años
+ubicacion: Santiago de Surco, Lima
+ocupacion: Contador
+cliente_desde: Febrero de 2025
+canal: Email
+pedidos: 11
+fecha: 9 de octubre de 2026
+duracion: 35 minutos
+modalidad: Videollamada
+---
+Moderadora: Hola, Martín, gracias por tu tiempo. Eres uno de los clientes más frecuentes de Tikay, así que tu opinión es muy importante para nosotros.
+Martín: Hola, con gusto. Sí, ya llevo un buen tiempo comprando.
+Moderadora: ¿Cómo conociste la marca?
+Martín: Leí un artículo en su blog sobre los beneficios de la maca negra. Lo encontré buscando información, no buscando comprar. Al final del artículo había una opción para suscribirse al boletín y me suscribí. A la semana me llegó un correo con una receta de batido con maca y un cupón. Ahí compré la primera vez, en febrero del año pasado.
+Moderadora: ¿Qué compras normalmente?
+Martín: La maca en polvo y las cápsulas de camu camu. Las dos cosas cada mes, más o menos. Ya debo llevar unos once pedidos. Pago con tarjeta, la tengo guardada en la página, entonces es rapidísimo.
+Moderadora: ¿Por qué Tikay y no otra marca?
+Martín: Por confianza. La maca viene de Junín, te dicen de qué comunidad, y se nota la calidad. Me da energía para la chamba, sobre todo en cierre de mes, que es terrible para un contador. Y las cápsulas de camu camu me ayudaron mucho en invierno. He probado otras marcas y no es lo mismo.
+Moderadora: ¿Cómo ha sido la experiencia de entrega?
+Martín: Hasta inicios de este año, perfecta. Pedía en la mañana y al día siguiente lo tenía, o a los dos días como máximo. Pero desde abril o mayo algo cambió. Ahora demora tres o cuatro días, aquí en Surco. Y como compro justo cuando se me está acabando, a veces me quedo tres o cuatro días sin maca. Parece poco, pero para mí ya es parte de la rutina.
+Moderadora: ¿Les consultaste por qué demoraba más?
+Martín: Les escribí por WhatsApp. Antes me respondía una persona, una chica muy amable que hasta se acordaba de mi pedido. Ahora te responde un bot con opciones y, cuando eliges "hablar con un asesor", nadie responde, o te responden al día siguiente. Esa diferencia la noté mucho.
+Moderadora: ¿Sientes que Tikay reconoce que eres un cliente frecuente?
+Martín: Para nada. Y eso es lo que más me fastidia, la verdad. Llevo casi dos años comprando todos los meses y me tratan igual que a un cliente nuevo. Peor, de hecho: a los nuevos les dan 15 % de bienvenida y a mí nada. Los correos que me llegan son los mismos que le llegan a todo el mundo, con cupones de Cyber para productos que yo no uso.
+Moderadora: ¿Qué piensas de los correos que te envían?
+Martín: Al inicio me gustaban mucho: recetas con maca, cómo combinar los suplementos, de qué comunidad venían los insumos. Eran útiles y los leía. Ahora casi todos son de descuentos y campañas, y los abro menos. Lo que me enganchó a la marca fue el contenido, no los descuentos.
+Moderadora: ¿Qué te gustaría que te ofrecieran?
+Martín: Una suscripción. Si tuvieran una suscripción mensual, con la maca y las cápsulas llegando en una fecha fija, me suscribo hoy mismo. Ni siquiera necesito descuento, aunque obviamente se agradecería. Lo que quiero es no tener que acordarme y que no se me acabe.
+Moderadora: ¿Has pensado en cambiar de marca?
+Martín: No lo he pensado formalmente, pero en la práctica ya empecé. Las veces que se me acabó y el pedido no llegaba, compré maca en el supermercado. No es igual, pero me sacó del apuro. Y una vez que te acostumbras al supermercado, porque está ahí nomás, es fácil quedarte.
+Moderadora: Si fueras el gerente de Tikay, ¿qué harías primero?
+Martín: Primero, arreglar las entregas en Lima, que es donde está la mayoría de clientes, imagino. Segundo, volver a tener personas en el WhatsApp, al menos para los clientes frecuentes. Y tercero, lanzar la suscripción y un programa para clientes fieles. Los clientes como yo somos los que les pagamos las cuentas todos los meses, no los que compran una vez en el Cyber.
+Moderadora: Muy claro, Martín. ¿Algo más?
+Martín: Solo que el producto es excelente y la marca tiene una historia bonita. Sería una pena que la pierdan por descuidar a los que ya están.
+Moderadora: Muchas gracias por tu tiempo.
+Martín: A ti. Éxitos.
